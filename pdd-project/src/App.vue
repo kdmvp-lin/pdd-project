@@ -13,6 +13,7 @@ export default {
 
 <style>
   body{
+
     background-color: white !important;
   }
 </style>
