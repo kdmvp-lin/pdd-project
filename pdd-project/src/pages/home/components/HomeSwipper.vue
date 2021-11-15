@@ -76,4 +76,10 @@
     opacity 1
   .swipper-box >>> .swiper-pagination-bullet-active
     background #df2127
+  .swipper-box{
+    height :0;
+    padding-bottom: 31%;
+    overflow:hidden;
+  }
+
 </style>
