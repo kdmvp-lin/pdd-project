@@ -8,7 +8,6 @@
 
       <!--Optionalcontrols-->
       <div class="swiper-pagination" slot="pagination"></div>
-
     </swiper>
   </div>
 
@@ -26,6 +25,7 @@
               },
               loop:true
             },
+            //储存轮播图片src的对象数组
             swipperList:[
               {
                 'id':'001',
