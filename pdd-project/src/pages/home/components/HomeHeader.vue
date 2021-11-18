@@ -7,22 +7,22 @@
             首页
           </a>
           <a class="mui-control-item" href="#item2mobile" data-wid="tab-top-subpage-2.html">
-            热门关注
+            推荐
           </a>
           <a class="mui-control-item" href="#item3mobile" data-wid="tab-top-subpage-3.html">
-            数据榜
+            女装
           </a>
           <a class="mui-control-item" href="#item4mobile" data-wid="tab-top-subpage-4.html">
-            特殊磨损
+            箱包
           </a>
           <a class="mui-control-item" href="#item5mobile" data-wid="tab-top-subpage-5.html">
-            金贴专区
+            手机
           </a>
           <a class="mui-control-item" href="#item6mobile" data-wid="tab-top-subpage-6.html">
-            近期降价
+            食品
           </a>
           <a class="mui-control-item" href="#item7mobile" data-wid="tab-top-subpage-7.html">
-            四连金贴
+            母婴
           </a>
           <!--<a class="mui-control-item" href="#item6mobile" data-wid="tab-top-subpage-6.html">
             科技
@@ -54,7 +54,7 @@
       background-color: white;
     }
   .mui-active{
-    color: #eaab17 !important;
+    color: #e02e24 !important;
   }
 </style>
 

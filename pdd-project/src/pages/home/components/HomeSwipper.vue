@@ -17,6 +17,10 @@
 <script>
     export default {
         name: "HomeSwipper",
+        props:{
+          swipperList:Array
+
+        },
       data(){
           return{
             swiperOption:{
@@ -26,28 +30,7 @@
               loop:true
             },
             //储存轮播图片src的对象数组
-            swipperList:[
-              {
-                'id':'001',
-                'imgUrl':'/static/pic/simple.png'
-              },
-              {
-                'id':'002',
-                'imgUrl':'/static/pic/bit.png'
-              },
-              {
-                'id':'003',
-                'imgUrl':'/static/pic/electronic.png'
-              },
-              {
-                'id':'004',
-                'imgUrl':'/static/pic/perfect.png'
-              },
-              {
-                'id':'005',
-                'imgUrl':'/static/pic/boombl4.png'
-              },
-            ]
+
           }
 
       },
