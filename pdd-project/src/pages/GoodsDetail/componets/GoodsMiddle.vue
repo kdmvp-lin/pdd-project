@@ -42,6 +42,7 @@
         float right
         font-size .8rem
       .desc
+
         margin-top 1.6
         font-weight bold
         display inline-block
