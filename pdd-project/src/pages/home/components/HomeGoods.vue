@@ -1,7 +1,8 @@
 <template>
 <div>
-  <div class="goods-box" v-for="item in goods" :key="item.id">
+  <router-link tag="div" to="/GoodsDetail" class="goods-box" v-for="item in goods" :key="item.id">
 <!--    商品图片-->
+
     <div class="left-img">
       <img class="goods-img" :src="item.pic_url">
     </div>
@@ -20,28 +21,19 @@
         </div>
       </div>
     </div>
-  </div>
+  </router-link>
+
 </div>
 </template>
 
 <script>
     export default {
         name: "HomeGoods",
+      props:{
+        goods:Array
+      },
       data(){
         return{
-
-            goods:[
-              {
-                'id':'01',
-                'pic_url':'https://img.pddpic.com/goods/images/2021-08-01/1ee001d143a1ae852138729044175acc.jpeg?imageView2/2/w/400/q/80',
-                'goods_desc':'新品当天发 华为荣耀50/50se全网通5G  一亿像素拍照旗舰手机pro',
-                'money':'1839',
-                'pindan':'已拼4543万件',
-                'user_imgone':'https://avatar2.pddpic.com/a/Q0xuQ0lUUXVIYzFEOVl4SDVzZmN1UkZhc2RkR3NmZjFMQT09djA0-1608906443?imageMogr2/thumbnail/100x',
-                'user_imgtwo':'https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x',
-              }
-            ]
-
 
         }
       },

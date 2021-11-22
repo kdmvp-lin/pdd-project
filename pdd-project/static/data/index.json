@@ -126,8 +126,36 @@
         "imgUrl":"https://commimg.pddpic.com/oms_img_ng/2020-12-04/c1a20306-bdb3-42c5-b0bb-e4018ce9f4d6.png?imageView2/2/w/117/q/80",
         "content":"行家帮你选"
       }
+    ],
+
+    "goods":[
+      {
+        "id":"01",
+        "pic_url":"https://img.pddpic.com/goods/images/2021-08-01/1ee001d143a1ae852138729044175acc.jpeg?imageView2/2/w/400/q/80",
+        "goods_desc":"新品当天发 华为荣耀50/50se全网通5G  一亿像素拍照旗舰手机pro",
+        "money":"1839",
+        "pindan":"已拼4543万件",
+        "user_imgone":"https://avatar2.pddpic.com/a/Q0xuQ0lUUXVIYzFEOVl4SDVzZmN1UkZhc2RkR3NmZjFMQT09djA0-1608906443?imageMogr2/thumbnail/100x",
+        "user_imgtwo":"https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x"
+      },
+      {
+        "id":"02",
+        "pic_url":"https://img.pddpic.com/gaudit-image/2021-11-02/90dd99857a378fc6d58070a22d3aa260.jpeg?imageView2/2/w/400/q/80/format/webp",
+        "goods_desc":"Apple iPhone 13 Pro Max 苹果新品5G手机",
+        "money":"6999",
+        "pindan":"已拼2082万件",
+        "user_imgone":"https://avatar2.pddpic.com/a/Q0xuQ0lUUXVIYzFEOVl4SDVzZmN1UkZhc2RkR3NmZjFMQT09djA0-1608906443?imageMogr2/thumbnail/100x",
+        "user_imgtwo":"https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x"
+      },
+      {
+        "id":"03",
+        "pic_url":"https://img.pddpic.com/gaudit-image/2021-10-22/ed26469ff27f2b4e7b178ca9384c5269.jpeg?imageView2/2/w/400/q/80/format/webp",
+        "goods_desc":"vivo X60 Pro 专业影像旗舰5G拍照手机vivox60曲屏版 vivox60pro",
+        "money":"2000",
+        "pindan":"已拼4543万件",
+        "user_imgone":"https://avatar2.pddpic.com/a/Q0xuQ0lUUXVIYzFEOVl4SDVzZmN1UkZhc2RkR3NmZjFMQT09djA0-1608906443?imageMogr2/thumbnail/100x",
+        "user_imgtwo":"https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x"
+      }
     ]
-
-
   }
 }
