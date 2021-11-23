@@ -56,4 +56,5 @@
         padding-left 0.3rem
         padding-right 0.3rem
 
+
 </style>
