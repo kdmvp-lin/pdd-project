@@ -15,13 +15,14 @@
         <div class="word">客服</div>
       </div>
       <div class="price1">
-          <div>3999</div>
-          <div>单独购买</div>
+        <div>3799</div>
+        <div>发起拼单</div>
       </div>
 
       <div class="price2">
-        <div>3799</div>
-        <div>发起拼单</div>
+        <div>3999</div>
+        <div>单独购买</div>
+
       </div>
 
     </div>
@@ -42,6 +43,7 @@
     height 0
     padding-bottom 15%
     overflow hidden
+    background-color white
     .footer-box
       .more
         display inline-block

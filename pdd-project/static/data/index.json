@@ -156,6 +156,51 @@
         "user_imgone":"https://avatar2.pddpic.com/a/Q0xuQ0lUUXVIYzFEOVl4SDVzZmN1UkZhc2RkR3NmZjFMQT09djA0-1608906443?imageMogr2/thumbnail/100x",
         "user_imgtwo":"https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x"
       }
+    ],
+
+    "people":[
+      {
+        "id":"01",
+        "name":"KD",
+        "img":"https://avatar2-1.pddpic.com/a/Q0ZJbGlrb3lPSk0zV3Q3aUJDUnpISERZNVNsNkIyeGFiZz09djA0-1635085990?imageMogr2/thumbnail/100x",
+        "num":"3"
+      },
+      {
+        "id":"02",
+        "name":"MJ",
+        "img":"https://avatar2-1.pddpic.com/a/Q005WE5WWDNOdTNRL3IwS0RwSHVRZnk1bE5PMllqRWJjdz09djA0-1634900385?imageMogr2/thumbnail/100x",
+        "num":"1"
+      },
+      {
+        "id":"03",
+        "name":"LBJ",
+        "img":"https://avatar2-1.pddpic.com/a/Q01IamFRVVB5MUszT0VWUWhtUUJyNXlZRDQwK1UvTU5jUT09djA0-1635684165?imageMogr2/thumbnail/100x",
+        "num":"10"
+      }
+    ],
+    "pinglun_pp":[
+      {
+        "id":"01",
+        "name":"kdmvp-lin",
+        "xinghao":"机身颜色：亮黑色  存储容量：12GB+512GB  套餐类型：官方标配  网络类型：全网通5G",
+        "img":"https://avatar2-1.pddpic.com/a/Q0ZJbGlrb3lPSk0zV3Q3aUJDUnpISERZNVNsNkIyeGFiZz09djA0-1635085990?imageMogr2/thumbnail/100x",
+        "words":"用了两个月了，发现没有华为的流光快门，没有智能遥控器，大光圈模式最大光圈模糊的部位很迷，不如之前荣耀十。系统升级后有一次一直自动重启，强制重启后才正常开机。两个多月来，几乎每天会扫码骑车，有四五次系统异常不能打开相机。相机拍照也变慢很多，我确定没有后台以及储存空间足够大。。"
+
+      },
+      {
+        "id":"02",
+        "name":"LBJ",
+        "xinghao":"机身颜色：亮黑色  存储容量：12GB+256GB  套餐类型：官方标配  网络类型：全网通5G",
+        "img":"https://avatar2-1.pddpic.com/a/Q01IamFRVVB5MUszT0VWUWhtUUJyNXlZRDQwK1UvTU5jUT09djA0-1635684165?imageMogr2/thumbnail/100x",
+        "words":"荣耀十给荣耀五十拍照哈哈哈哈哈。内容物就这些，我觉得挺好。"
+      },
+      {
+        "id":"03",
+        "name":"CJ",
+        "xinghao":"机身颜色：亮金  存储容量：12GB+512GB  套餐类型：官方标配  网络类型：全网通5G",
+        "img":"https://avatar2-1.pddpic.com/a/Q005WE5WWDNOdTNRL3IwS0RwSHVRZnk1bE5PMllqRWJjdz09djA0-1634900385?imageMogr2/thumbnail/100x",
+        "words":"顺丰快递很快,第三天下午就收到货了。荣耀50全新国行货,外观好看,界面美观,手感不错,极速充电,系统流畅。支持国货!荣耀崛起！以后继续光顾！"
+      }
     ]
   }
 }
