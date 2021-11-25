@@ -159,13 +159,14 @@
         float right
         padding-right .5rem
       .gopin
+        border-radius  10%
         float right
         width 4rem
-        height 2rem
+        height 1.8rem
         background-color #e02e24
         text-align center
         color white
-        padding-top 0.5rem
+        padding-top 0.3rem
 
     .pinglun
       .pinlun_top
