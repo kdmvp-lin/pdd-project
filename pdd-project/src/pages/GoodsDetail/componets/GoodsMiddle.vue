@@ -25,6 +25,19 @@
 
       </div>
       <div class="box2">
+        <span class="fontcolor">精选晒图（29）</span>
+        <span class="arrow2"> 查看更多> </span>
+      </div>
+      <div class="shaitu">
+        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/f13d525d-0532-418a-86de-985f70f62799.jpeg.a.jpeg">
+        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/ac8f9ef7-63ef-4784-80ed-4b86d3823d32.jpeg.a.jpeg">
+        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/9e9781cd-5c6c-415a-994c-0596a39247d9.jpeg.a.jpeg">
+        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/f83f220f-0cc5-4a2c-8259-2f448cd12fd7.jpeg.a.jpeg">
+        <div class="img_num">共29张</div>
+
+      </div>
+      <div style="clear:both;"></div>
+      <div class="box2">
         <span class="fontcolor">商品评价（1175）</span>
         <span class="arrow2"> 查看更多> </span>
       </div>
@@ -143,7 +156,6 @@
         color #9c9c9c
       .fontcolor
         color black
-
     .pindanp
       padding-bottom 1rem
       .left_img
@@ -210,5 +222,22 @@
       .goods-img
         width 100%
         margin-top -5px;
+    .shaitu
+      margin-top 1.5rem
+      .shaitu_img
+        width 22%
+        margin-left .2rem
+        margin-right .2rem
+      .img_num
+        z-index 20
+        background-color #323232
+        color white
+        float right
+        display inline-block
+        font-size .01rem
+        margin-right .4rem
+        position relative
+        bottom 1.5rem
+        opacity 70%
 /*test3*/
 </style>
