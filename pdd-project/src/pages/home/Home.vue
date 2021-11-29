@@ -7,6 +7,7 @@
     <Home-goods :goods="goods"></Home-goods>
   </div>
 
+
 </template>
 
 

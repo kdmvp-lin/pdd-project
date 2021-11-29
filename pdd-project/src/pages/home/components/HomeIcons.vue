@@ -3,9 +3,9 @@
     <swiper :options="swiperOption" ref="mySwiper">
       <swiper-slide v-for="(page,index) of pages" :key="index">
         <ul class="mui-table-view mui-grid-view mui-grid-9">
-          <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" v-for="item in page" :key="item.id"><a href="#">
+          <router-link tag="li"  to="/Banner"  class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" v-for="item in page" :key="item.id"><a href="#">
             <img class="icon-img" :src="item.imgUrl" alt="">
-            <div class="mui-media-body">{{item.content}}</div></a></li>
+            <div class="mui-media-body">{{item.content}}</div></a></router-link>
         </ul>
       </swiper-slide>
     </swiper>

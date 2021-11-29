@@ -201,6 +201,49 @@
         "img":"https://avatar2-1.pddpic.com/a/Q005WE5WWDNOdTNRL3IwS0RwSHVRZnk1bE5PMllqRWJjdz09djA0-1634900385?imageMogr2/thumbnail/100x",
         "words":"顺丰快递很快,第三天下午就收到货了。荣耀50全新国行货,外观好看,界面美观,手感不错,极速充电,系统流畅。支持国货!荣耀崛起！以后继续光顾！"
       }
+    ],
+    "miaosha_goods":[
+      {
+        "id":"01",
+        "goods_img":"https://img.pddpic.com/mms-material-img/2021-11-25/ea6f44b90431758c2c97e8c1c2cec019.jpeg?watermark/1/blogo/2/image/aHR0cDovL3Byb2QtaW1hZ2UxLWdvb2RzLTEyNTIwODEwMDEucGljc2gubXlxY2xvdWQuY29tL2ltYWdlcy8yMDIxLTA2LTE3LzE4MTRmYjBiNzJmOTZlYTQ2OTZmYTQ4MDJiOGY5MDFmLnBuZw==/gravity/south/dy/1/dx/1%7CimageView2/2/w/396/q/80",
+        "goods_desc":"奥克斯按摩椅4D机械手SL捶打揉捏全自动多功能全身家用太空舱Z13",
+        "per":"12%",
+        "pindan":"已拼3件",
+        "money":"￥1299"
+      },
+
+      {
+        "id":"02",
+        "goods_img":"https://img.pddpic.com/goods/images/2021-11-23/7d8ea6c52cd551560c790755a343e605.jpeg?imageView2/2/w/396/q/80/format/webp",
+        "goods_desc":"新品上市乐事薯片23g*9/15袋装多规格办公室出游零食小吃便宜学生",
+        "per":"20%",
+        "pindan":"已拼16件",
+        "money":"￥12.6"
+      },
+      {
+        "id":"03",
+        "goods_img":"https://img.pddpic.com/goods/images/2021-11-27/81dacec4c34cd7b0b7f303ab73a4636e.jpeg?imageView2/2/w/396/q/80/format/webp",
+        "goods_desc":"台灯护眼学习灯学生宿舍可充电插电两用折叠式保护视力LED阅读灯",
+        "per":"15%",
+        "pindan":"已拼8件",
+        "money":"￥5.39"
+      },
+      {
+        "id":"04",
+        "goods_img":"https://img.pddpic.com/mms-material-img/2021-11-27/db48fffeb8db5815a28b6dd2f81334b0.jpeg?imageView2/2/w/396/q/80/format/webp",
+        "goods_desc":"【买一送一】巧克力豆曲奇饼干批发整箱特价糕点儿童零食独立包装",
+        "per":"11%",
+        "pindan":"已拼17件",
+        "money":"￥7.5"
+      },
+      {
+        "id":"05",
+        "goods_img":"https://img.pddpic.com/mms-material-img/2021-11-23/787ac7e219deecd85e90f069ac174051.jpeg?imageView2/2/w/396/q/80/format/webp",
+        "goods_desc":"实木衣柜家用卧室现代简约简易组装出租房用组合柜子多功能大衣橱",
+        "per":"7%",
+        "pindan":"已拼2件",
+        "money":"￥46.5"
+      }
     ]
   }
 }
