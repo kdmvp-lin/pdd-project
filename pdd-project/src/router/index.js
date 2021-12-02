@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from "../pages/home/Home";
 import GoodsDetail from "../pages/GoodsDetail/GoodsDetail";
 import Banner from "../pages/Banner/Banner";
+import Category from "../pages/Category/Category";
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +22,11 @@ export default new Router({
       path: '/Banner',
       name:'/Banner',
       component:Banner
+    },
+    {
+      path: '/Category',
+      name:'/Category',
+      component:Category
     }
   ]
 })

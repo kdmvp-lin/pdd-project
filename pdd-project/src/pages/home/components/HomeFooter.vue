@@ -2,28 +2,31 @@
 <div>
 
   <nav class="mui-bar mui-bar-tab">
-    <a class="mui-tab-item mui-active" href="#tabbar">
+    <router-link tag="a" to="/" class="mui-tab-item mui-active" href="#tabbar">
       <span class="mui-icon mui-icon-home"></span>
       <span class="mui-tab-label">首页</span>
-    </a>
-    <a class="mui-tab-item" href="#tabbar-with-chat">
-      <span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>
-      <span class="mui-tab-label">直播</span>
-    </a>
-    <a class="mui-tab-item" href="#tabbar-with-contact">
-      <span class="mui-icon mui-icon-contact"></span>
+    </router-link>
+    <router-link tag="a" to="/Category" class="mui-tab-item" href="#tabbar-with-chat">
+      <span class="mui-icon mui-icon-email"></span>
       <span class="mui-tab-label">分类</span>
-    </a>
-    <a class="mui-tab-item" href="#tabbar-with-map">
+    </router-link>
+    <router-link tag="a" to="/Category" class="mui-tab-item" href="#tabbar-with-contact">
+      <span class="mui-icon mui-icon-contact"><span class="mui-badge">9</span></span>
+      <span class="mui-tab-label">购物车</span>
+    </router-link>
+    <router-link tag="a" to="/Category" class="mui-tab-item" href="#tabbar-with-map">
       <span class="mui-icon mui-icon-gear"></span>
       <span class="mui-tab-label">个人中心</span>
-    </a>
+    </router-link>
   </nav>
 </div>
 </template>
 
 <script>
-
+    import mui from '../../../mui/js/mui'
+    mui('body').on('tap','a',function(){
+      window.top.location.href=this.href
+    })
     export default {
         name: "HomeFooter"
     }
