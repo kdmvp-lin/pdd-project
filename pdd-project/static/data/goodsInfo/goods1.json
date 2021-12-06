@@ -1,0 +1,148 @@
+{
+  "ret": true,
+  "data":{
+      "swiperList": [
+        {
+          "id":"1",
+          "imgurl":"https://img.pddpic.com/mms-material-img/2021-08-13/0703dc7c-a74c-4611-a18a-c3dc2bbc2b04.png.a.jpeg"
+        },
+        {
+          "id":"2",
+          "imgurl":"https,://img.pddpic.com/mms-material-img/2021-09-20/1c5fefe7-9dc5-4aa8-a423-faeb009df479.png.a.jpeg"
+        }
+      ],
+
+      "pinglun_pp":[
+      {
+        "id":"01",
+        "name":"kdmvp-lin",
+        "xinghao":"机身颜色：亮黑色  存储容量：12GB+512GB  套餐类型：官方标配  网络类型：全网通5G",
+        "img":"https://avatar2-1.pddpic.com/a/Q0ZJbGlrb3lPSk0zV3Q3aUJDUnpISERZNVNsNkIyeGFiZz09djA0-1635085990?imageMogr2/thumbnail/100x",
+        "words":"用了两个月了，发现没有华为的流光快门，没有智能遥控器，大光圈模式最大光圈模糊的部位很迷，不如之前荣耀十。系统升级后有一次一直自动重启，强制重启后才正常开机。两个多月来，几乎每天会扫码骑车，有四五次系统异常不能打开相机。相机拍照也变慢很多，我确定没有后台以及储存空间足够大。。"
+
+      },
+      {
+        "id":"02",
+        "name":"LBJ",
+        "xinghao":"机身颜色：亮黑色  存储容量：12GB+256GB  套餐类型：官方标配  网络类型：全网通5G",
+        "img":"https://avatar2-1.pddpic.com/a/Q01IamFRVVB5MUszT0VWUWhtUUJyNXlZRDQwK1UvTU5jUT09djA0-1635684165?imageMogr2/thumbnail/100x",
+        "words":"荣耀十给荣耀五十拍照哈哈哈哈哈。内容物就这些，我觉得挺好。"
+      },
+      {
+        "id":"03",
+        "name":"CJ",
+        "xinghao":"机身颜色：亮金  存储容量：12GB+512GB  套餐类型：官方标配  网络类型：全网通5G",
+        "img":"https://avatar2-1.pddpic.com/a/Q005WE5WWDNOdTNRL3IwS0RwSHVRZnk1bE5PMllqRWJjdz09djA0-1634900385?imageMogr2/thumbnail/100x",
+        "words":"顺丰快递很快,第三天下午就收到货了。荣耀50全新国行货,外观好看,界面美观,手感不错,极速充电,系统流畅。支持国货!荣耀崛起！以后继续光顾！"
+      }
+    ],
+      "goodsInfo": [
+        {
+          "id": "1",
+          "top_pr": "￥3799",
+          "top_yuan": "￥3999",
+          "top_pin": "已拼7612件",
+          "top_desc": "华为荣耀50Pro 100W超级快充5G手机 1亿像素超清镜头高通骁龙778G",
+          "box2": "163人正在拼单,可直接参与",
+          "shaitu": [
+            {
+              "id": "1",
+              "url": "https://img.pddpic.com/mms-material-img/2021-11-26/f13d525d-0532-418a-86de-985f70f62799.jpeg.a.jpeg"
+            },
+            {
+              "id": "2",
+              "url": "https://img.pddpic.com/mms-material-img/2021-11-26/ac8f9ef7-63ef-4784-80ed-4b86d3823d32.jpeg.a.jpeg"
+            },
+            {
+              "id": "3",
+              "url": "https://img.pddpic.com/mms-material-img/2021-11-26/9e9781cd-5c6c-415a-994c-0596a39247d9.jpeg.a.jpeg"
+            },
+            {
+              "id": "4",
+              "url": "https://img.pddpic.com/mms-material-img/2021-11-26/f83f220f-0cc5-4a2c-8259-2f448cd12fd7.jpeg.a.jpeg"
+            }
+          ],
+          "shaitu_num": "共29张",
+          "pinglun_green": "正品（115）",
+          "pinglun_two": "系统流畅（158）",
+          "pinglun_th": "手机很好（141）",
+          "people":[
+            {
+              "id":"01",
+              "name":"KD",
+              "img":"https://avatar2-1.pddpic.com/a/Q0ZJbGlrb3lPSk0zV3Q3aUJDUnpISERZNVNsNkIyeGFiZz09djA0-1635085990?imageMogr2/thumbnail/100x",
+              "num":"3"
+            },
+            {
+              "id":"02",
+              "name":"MJ",
+              "img":"https://avatar2-1.pddpic.com/a/Q005WE5WWDNOdTNRL3IwS0RwSHVRZnk1bE5PMllqRWJjdz09djA0-1634900385?imageMogr2/thumbnail/100x",
+              "num":"1"
+            },
+            {
+              "id":"03",
+              "name":"LBJ",
+              "img":"https://avatar2-1.pddpic.com/a/Q01IamFRVVB5MUszT0VWUWhtUUJyNXlZRDQwK1UvTU5jUT09djA0-1635684165?imageMogr2/thumbnail/100x",
+              "num":"10"
+            }
+          ],
+          "imgurl": [
+            {
+              "id": "1",
+              "src": "https://img-1.pddpic.com/mms-material-img/2021-08-11/e1e110da-5f8e-4692-b634-39d6a558b801.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "2",
+              "src": "https://img-1.pddpic.com/mms-material-img/2021-08-11/7b9b93da-72f9-46b1-aff2-116733b57cf4.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "3",
+              "src": "https://img-1.pddpic.com/mms-material-img/2021-08-11/d76f2b68-9b93-4953-b578-b02154f306ad.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "4",
+              "src": "https://img-1.pddpic.com/mms-material-img/2021-08-11/8de86ee1-367f-4719-bd52-b9cefddc8f79.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "5",
+              "src": "https://img-1.pddpic.com/mms-material-img/2021-08-11/21e01cbc-c435-4dd1-8485-66224b879693.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "6",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/b3d2fb2b-a10c-406f-9968-ae488da1a47d.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "7",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/bf15aa2b-fa55-47aa-8b7d-1ce0780ee0f0.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "8",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/d93b4616-9aac-4b3b-8799-f4660f585c4b.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "9",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/504103af-3050-490f-b1b9-80361ffe8ff5.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "10",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/b63d1361-89a0-484e-9353-9af38e0ff85a.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "11",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/7b2f4ccf-a36a-4784-80ce-eabd8aa67009.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "12",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/64ba9b96-4837-4471-b3f7-e650e07f9e69.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            },
+            {
+              "id": "13",
+              "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/3c4cb211-ac98-466e-9f2e-41f7b8aa67bd.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
+            }
+          ]
+        }
+      ]
+
+
+  }
+}

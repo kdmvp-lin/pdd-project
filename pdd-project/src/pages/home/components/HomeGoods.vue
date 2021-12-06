@@ -1,6 +1,6 @@
 <template>
 <div>
-  <router-link tag="div" to="/GoodsDetail" class="goods-box" v-for="item in goods" :key="item.id">
+  <router-link tag="div" v-for="item in goods" :key="item.id" :to="{name:'GoodsDetail',params:{id:item.id}}" class="goods-box" >
 <!--    商品图片-->
 
     <div class="left-img">
@@ -22,7 +22,7 @@
       </div>
     </div>
   </router-link>
-
+  <div class="kong"></div>
 </div>
 </template>
 
@@ -41,6 +41,9 @@
 </script>
 
 <style scoped lang="stylus">
+  .kong
+    height 4rem
+    padding-top 5rem
   .goods-box
     height 0
     padding-bottom 45%

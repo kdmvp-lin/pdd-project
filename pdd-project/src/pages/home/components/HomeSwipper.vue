@@ -44,7 +44,6 @@
     height: 0;
     padding-bottom:60%;
     overflow:hidden;
-    background-color #282626;
   }
   .swipper-img{
     width:100%;
@@ -61,7 +60,7 @@
     background #df2127
   .swipper-box{
     height :0;
-    padding-bottom: 31%;
+    padding-bottom: 53%;
     overflow:hidden;
   }
 

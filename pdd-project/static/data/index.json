@@ -4,23 +4,24 @@
     "swipperList":[
       {
         "id":"001",
-        "imgUrl":"/static/pic/simple.png"
+        "imgUrl":"https://gtms01.alicdn.com/tps/i1/TB1r4h8JXXXXXXoXXXXvKyzTVXX-520-280.jpg"
       },
+
       {
         "id":"002",
-        "imgUrl":"/static/pic/bit.png"
+        "imgUrl":"https://gtms02.alicdn.com/tps/i2/TB10vPXKpXXXXacXXXXvKyzTVXX-520-280.jpg"
       },
       {
         "id":"003",
-        "imgUrl":"/static/pic/electronic.png"
+        "imgUrl":"https://gtms03.alicdn.com/tps/i3/TB1gXd1JXXXXXapXpXXvKyzTVXX-520-280.jpg"
       },
       {
         "id":"004",
-        "imgUrl":"/static/pic/perfect.png"
+        "imgUrl":"https://img.alicdn.com/imgextra/i4/6000000007823/O1CN01takKn227ez8vtarfX_!!6000000007823-0-octopus.jpg"
       },
       {
         "id":"005",
-        "imgUrl":"/static/pic/boombl4.png"
+        "imgUrl":"https://img.alicdn.com/imgextra/i1/6000000001976/O1CN01Bxrb7X1QT3LhDOhL3_!!6000000001976-0-octopus.jpg"
       }
     ],
 
@@ -130,7 +131,7 @@
 
     "goods":[
       {
-        "id":"01",
+        "id":"1",
         "pic_url":"https://img.pddpic.com/goods/images/2021-08-01/1ee001d143a1ae852138729044175acc.jpeg?imageView2/2/w/400/q/80",
         "goods_desc":"新品当天发 华为荣耀50/50se全网通5G  一亿像素拍照旗舰手机pro",
         "money":"1839",
@@ -139,7 +140,7 @@
         "user_imgtwo":"https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x"
       },
       {
-        "id":"02",
+        "id":"2",
         "pic_url":"https://img.pddpic.com/gaudit-image/2021-11-02/90dd99857a378fc6d58070a22d3aa260.jpeg?imageView2/2/w/400/q/80/format/webp",
         "goods_desc":"Apple iPhone 13 Pro Max 苹果新品5G手机",
         "money":"6999",
@@ -148,7 +149,7 @@
         "user_imgtwo":"https://avatar2.pddpic.com/a/Q0haczk1S0hSNFFrU25QN2RTUE03OGwwSE1QOEZ2WjJTUT09djA0-1524833601?imageMogr2/thumbnail/100x"
       },
       {
-        "id":"03",
+        "id":"3",
         "pic_url":"https://img.pddpic.com/gaudit-image/2021-10-22/ed26469ff27f2b4e7b178ca9384c5269.jpeg?imageView2/2/w/400/q/80/format/webp",
         "goods_desc":"vivo X60 Pro 专业影像旗舰5G拍照手机vivox60曲屏版 vivox60pro",
         "money":"2000",

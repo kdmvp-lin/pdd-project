@@ -1,10 +1,12 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper" >
+
+    <div v-for="item in goodsInfo" :key="item.id">
       <div class="top">
-        <span class="price">￥3799</span>
-        <span class="yuanjia">￥3999</span>
-        <span class="pindan">已拼7612件</span>
-        <span class="desc">华为荣耀50Pro 100W超级快充5G手机 1亿像素超清镜头高通骁龙778G</span>
+        <span class="price">{{item.top_pr}}</span>
+        <span class="yuanjia">{{item.top_yuan}}</span>
+        <span class="pindan">{{item.top_pin}}</span>
+        <span class="desc">{{item.top_desc}}</span>
         <span class="tuihuo">退货包运费</span>
       </div>
       <div class="box">
@@ -12,29 +14,25 @@
         <span class="arrow"> > </span>
       </div>
       <div class="box2">
-        <span class="fontcolor">163人正在拼单,可直接参与</span>
+        <span class="fontcolor">{{item.box2}}</span>
         <span class="arrow2"> 查看更多> </span>
       </div>
-      <div class="pindanp" v-for="item in people" :key="item.id">
+      <div class="pindanp" v-for="(item2,index2) in goodsInfo.people" :key="index2">
         <div class="left_img">
-          <img class="people_img" :src="item.img">
+          <img class="people_img" :src="item2.img">
         </div>
-        <span class="name">{{item.name}}</span>
+        <span class="name">{{item2.name}}</span>
         <span class="gopin">去拼单</span>
-        <span class="num">还差{{item.num}}人拼成</span>
+        <span class="num">还差{{item2.num}}人拼成</span>
 
       </div>
       <div class="box2">
         <span class="fontcolor">精选晒图（29）</span>
         <span class="arrow2"> 查看更多> </span>
       </div>
-      <div class="shaitu">
-        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/f13d525d-0532-418a-86de-985f70f62799.jpeg.a.jpeg">
-        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/ac8f9ef7-63ef-4784-80ed-4b86d3823d32.jpeg.a.jpeg">
-        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/9e9781cd-5c6c-415a-994c-0596a39247d9.jpeg.a.jpeg">
-        <img class="shaitu_img" src="https://img.pddpic.com/mms-material-img/2021-11-26/f83f220f-0cc5-4a2c-8259-2f448cd12fd7.jpeg.a.jpeg">
-        <div class="img_num">共29张</div>
-
+      <div class="shaitu " v-for="(item3,index3) in goodsInfo.shaitu" :key="index3" >
+        <img class="shaitu_img" :src="item3.url">
+        <div class="img_num">{{item.shaitu_num}}</div>
       </div>
       <div style="clear:both;"></div>
       <div class="box2">
@@ -43,37 +41,27 @@
       </div>
       <div class="pinglun">
         <div class="pinlun_top">
-          <div class="good green">正品（115）</div>
-          <div class="good">系统流畅（158）</div>
-          <div class="good">手机很好（141）</div>
+          <div class="good green">{{item.pinglun_green}}</div>
+          <div class="good">{{item.pinglun_two}}</div>
+          <div class="good">{{item.pinglun_th}}</div>
         </div>
-        <div class="pinglun_peo" v-for="item in pinglun_pp" :key="item.id">
+        <div class="pinglun_peo" v-for="(item4,index4) in pinglun_pp" :key="index4" >
           <div class="pinglun_peoimg">
-            <img class="pinglun_peoimgimg" :src="item.img">
-            <span class="name">{{item.name}}</span>
+            <img class="pinglun_peoimgimg" :src="item4.img">
+            <span class="name">{{item4.name}}</span>
           </div>
-          <div class="xinghao">{{item.xinghao}}</div>
-          <div class="words">{{item.words}}</div>
+          <div class="xinghao">{{item4.xinghao}}</div>
+          <div class="words">{{item4.words}}</div>
         </div>
       </div>
-      <div class="goodsmiaoshu">
+      <div class="goodsmiaoshu" >
         <div class="spxq">商品详情</div>
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/e1e110da-5f8e-4692-b634-39d6a558b801.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/7b9b93da-72f9-46b1-aff2-116733b57cf4.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/d76f2b68-9b93-4953-b578-b02154f306ad.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/8de86ee1-367f-4719-bd52-b9cefddc8f79.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/21e01cbc-c435-4dd1-8485-66224b879693.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/b3d2fb2b-a10c-406f-9968-ae488da1a47d.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/bf15aa2b-fa55-47aa-8b7d-1ce0780ee0f0.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/d93b4616-9aac-4b3b-8799-f4660f585c4b.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/504103af-3050-490f-b1b9-80361ffe8ff5.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/b63d1361-89a0-484e-9353-9af38e0ff85a.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/7b2f4ccf-a36a-4784-80ce-eabd8aa67009.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/64ba9b96-4837-4471-b3f7-e650e07f9e69.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-        <img class="goods-img" src="https://img-1.pddpic.com/mms-material-img/2021-08-11/3c4cb211-ac98-466e-9f2e-41f7b8aa67bd.jpeg.a.jpeg?imageView2/2/w/1300/q/80">
-
+        <div v-for="(item5,index5) in goodsInfo.imgurl" :key="index5">
+          <img class="goods-img" :src="item5.src">
+        </div>
       </div>
       <div class="kong"></div>
+    </div>
     </div>
 
 </template>
@@ -81,15 +69,13 @@
     export default {
         name: "GoodsMiddle",
       props:{
+        goodsInfo:Array,
+        pinglun_pp:Array,
         people:Array,
-        pinglun_pp:Array
-
+        shaitu:Array,
+        imgurl:Array,
       },
-      data(){
-          return{
 
-          }
-      }
     }
 </script>
 

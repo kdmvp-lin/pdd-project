@@ -46,7 +46,7 @@
 
 <style scoped lang="stylus">
   .mui-content .mui-table-view
-     margin-top 0
+     margin-top .1rem
   .mui-content .mui-grid-view.mui-grid-9
     background white
     border 0

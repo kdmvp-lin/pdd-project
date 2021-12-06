@@ -26,7 +26,7 @@
     </div>
   </div>
 </template>
-
+<script type="text/javascript" src="./jquery-3.4.1/jquery-3.4.1.js"></script>
 <script>
   import BScroll from "better-scroll"
     export default {
@@ -52,11 +52,18 @@
       },
       methods:{
           clickList(index){
-
             this.currentIndex=index
             const y=-this.rightLiTops[index]
             //根据索引定位右侧盒子的定位值
             this.rightBScroll.scrollTo(0,y)
+            // 当点击时修改标题颜色
+            // var _dom = document.querySelector('.text.change');
+            // if (_dom) {
+            //   _dom.classList.toggle('change');//当class为project的元素上没有这个CSS类时，它就新增这个CSS类；如果class为project的元素有了这个CSS类，它就是删除它。就是反转操作。
+            // }
+            // e.target.classList.toggle('change');
+            // this.tagList.params.text = this.tagList[index].id;
+
           },
         _initBScroll(){
 
@@ -128,6 +135,8 @@
           width 100%
           line-height 54px
           margin-bottom 0
+        .change
+          color #e02e24
       .current
         width 100%
         background #fff
