@@ -74,6 +74,7 @@
         people:Array,
         shaitu:Array,
         imgurl:Array,
+
       },
 
     }
