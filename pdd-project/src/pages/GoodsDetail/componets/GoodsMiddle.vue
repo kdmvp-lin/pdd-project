@@ -17,21 +17,25 @@
         <span class="fontcolor">{{item.box2}}</span>
         <span class="arrow2"> 查看更多> </span>
       </div>
-      <div class="pindanp" v-for="(item2,index2) in goodsInfo.people" :key="index2">
+
+      <div class="pindanp" v-for="(item2,index2) in item.people" :key="index2">
         <div class="left_img">
           <img class="people_img" :src="item2.img">
         </div>
         <span class="name">{{item2.name}}</span>
         <span class="gopin">去拼单</span>
         <span class="num">还差{{item2.num}}人拼成</span>
-
       </div>
+
       <div class="box2">
         <span class="fontcolor">精选晒图（29）</span>
         <span class="arrow2"> 查看更多> </span>
       </div>
-      <div class="shaitu " v-for="(item3,index3) in goodsInfo.shaitu" :key="index3" >
-        <img class="shaitu_img" :src="item3.url">
+      <!--      不显示-->
+      <div class="shaitu " >
+        <div v-for="(item3,index3) in item.shaitu" :key="index3" class="shaitu_imgdiv">
+          <img class="shaitu_img" :src="item3.url">
+        </div>
         <div class="img_num">{{item.shaitu_num}}</div>
       </div>
       <div style="clear:both;"></div>
@@ -54,9 +58,10 @@
           <div class="words">{{item4.words}}</div>
         </div>
       </div>
+      <!--      不显示-->
       <div class="goodsmiaoshu" >
         <div class="spxq">商品详情</div>
-        <div v-for="(item5,index5) in goodsInfo.imgurl" :key="index5">
+        <div v-for="(item5,index5) in item.imgurl" :key="index5">
           <img class="goods-img" :src="item5.src">
         </div>
       </div>
@@ -211,10 +216,16 @@
         margin-top -5px;
     .shaitu
       margin-top 1.5rem
-      .shaitu_img
-        width 22%
-        margin-left .2rem
-        margin-right .2rem
+      .shaitu_imgdiv
+        display inline-block
+        width 24%
+        height 5rem
+        margin-left .1rem
+        margin-right .1rem
+        .shaitu_img
+          width 100%
+          height 100%
+
       .img_num
         z-index 20
         background-color #323232
@@ -226,5 +237,6 @@
         position relative
         bottom 1.5rem
         opacity 70%
+
 /*test3*/
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <goods-swiper></goods-swiper>
-    <goods-footer></goods-footer>
+    <goods-swiper :swiperList="swiperList"></goods-swiper>
+    <goods-footer v-if="goodsInfo.length" :pric="goodsInfo"></goods-footer>
     <goods-middle :goodsInfo="goodsInfo" :pinglun_pp="pinglun_pp"></goods-middle>
   </div>
 </template>
@@ -24,11 +24,11 @@
         },
       data(){
         return{
-
           pinglun_pp:[],
           goodsInfo:[],
           iconfontList:[],
-
+          swiperList:[],
+          pric:[]
         }
       },
       methods:{
@@ -44,6 +44,8 @@
             var data =res.data
             this.goodsInfo=data.goodsInfo
             this.pinglun_pp=data.pinglun_pp
+            this.swiperList=data.swiperList
+            this.pric=data.pric
           }
 
         },

@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="footer-box">
+    <div class="footer-box" v-for="item in goodsInfo" :key="item.id">
       <div class="more">
         <div class="iconfont icon">&#xe7e3;</div>
 
@@ -14,13 +14,13 @@
         <div class="iconfont icon">&#xe7fd;</div>
         <div class="word">客服</div>
       </div>
-      <div class="price1">
-        <div>3799</div>
+
+      <div class="price1" @click="addCart">
+        <div>{{this.goodsInfo[0].price}}</div>
         <div>发起拼单</div>
       </div>
-
-      <div class="price2">
-        <div>3999</div>
+      <div class="price2" @click="addCart">
+        <div>{{this.goodsInfo[0].yuanjia}}</div>
         <div>单独购买</div>
 
       </div>
@@ -31,8 +31,24 @@
 
 <script>
     export default {
-        name: "GoodsFooter"
-    }
+        name: "GoodsFooter",
+        props:{
+            goodsInfo: Array
+          },
+        methods: {
+          addCart(){
+            this.$store.commit('shopcart/addShopcart',{
+              id:this.goodsInfo[0].id,
+              name:this.goodsInfo[0].name,
+              price:this.goodsInfo[0].price,
+              img:this.goodsInfo[0].pic,
+              count:1,
+              selected:true
+            })
+          }
+
+        }
+        }
 </script>
 
 

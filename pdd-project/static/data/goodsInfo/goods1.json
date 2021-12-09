@@ -4,17 +4,25 @@
       "swiperList": [
         {
           "id":"1",
-          "imgurl":"https://img.pddpic.com/mms-material-img/2021-08-13/0703dc7c-a74c-4611-a18a-c3dc2bbc2b04.png.a.jpeg"
+          "imgurl":"https://img.pddpic.com/mms-material-img/2020-10-23/29a567f2-81e6-4ed7-8b1b-89c4fa51f6ca.jpeg.a.jpeg?imageView2/2/w/1300/q/80/format/webp"
         },
         {
           "id":"2",
-          "imgurl":"https,://img.pddpic.com/mms-material-img/2021-09-20/1c5fefe7-9dc5-4aa8-a423-faeb009df479.png.a.jpeg"
+          "imgurl":"https://img.pddpic.com/mms-material-img/2020-10-23/2e199cc5-388d-41d2-af94-06e82dadca82.jpeg.a.jpeg?imageView2/2/w/1300/q/80/format/webp"
+        },
+        {
+          "id":"3",
+          "imgurl":"https://img.pddpic.com/mms-material-img/2020-10-23/ddce427c-9f95-4db4-b038-bd7046465e76.jpeg.a.jpeg?imageView2/2/w/1300/q/80/format/webp"
+        },
+        {
+          "id":"4",
+          "imgurl":"https://img.pddpic.com/mms-material-img/2020-10-23/f3fd2b90-ca24-49e5-97bc-cd7165f9628e.jpeg.a.jpeg?imageView2/2/w/1300/q/80/format/webp"
         }
       ],
 
       "pinglun_pp":[
       {
-        "id":"01",
+        "id":"001",
         "name":"kdmvp-lin",
         "xinghao":"机身颜色：亮黑色  存储容量：12GB+512GB  套餐类型：官方标配  网络类型：全网通5G",
         "img":"https://avatar2-1.pddpic.com/a/Q0ZJbGlrb3lPSk0zV3Q3aUJDUnpISERZNVNsNkIyeGFiZz09djA0-1635085990?imageMogr2/thumbnail/100x",
@@ -22,14 +30,14 @@
 
       },
       {
-        "id":"02",
+        "id":"002",
         "name":"LBJ",
         "xinghao":"机身颜色：亮黑色  存储容量：12GB+256GB  套餐类型：官方标配  网络类型：全网通5G",
         "img":"https://avatar2-1.pddpic.com/a/Q01IamFRVVB5MUszT0VWUWhtUUJyNXlZRDQwK1UvTU5jUT09djA0-1635684165?imageMogr2/thumbnail/100x",
         "words":"荣耀十给荣耀五十拍照哈哈哈哈哈。内容物就这些，我觉得挺好。"
       },
       {
-        "id":"03",
+        "id":"003",
         "name":"CJ",
         "xinghao":"机身颜色：亮金  存储容量：12GB+512GB  套餐类型：官方标配  网络类型：全网通5G",
         "img":"https://avatar2-1.pddpic.com/a/Q005WE5WWDNOdTNRL3IwS0RwSHVRZnk1bE5PMllqRWJjdz09djA0-1634900385?imageMogr2/thumbnail/100x",
@@ -37,13 +45,18 @@
       }
     ],
       "goodsInfo": [
+
         {
           "id": "1",
+          "name": "华为荣耀50Pro",
+          "price": "3799",
+          "pic": "https://img-1.pddpic.com/mms-material-img/2021-08-11/e1e110da-5f8e-4692-b634-39d6a558b801.jpeg.a.jpeg?imageView2/2/w/1300/q/80",
           "top_pr": "￥3799",
           "top_yuan": "￥3999",
           "top_pin": "已拼7612件",
           "top_desc": "华为荣耀50Pro 100W超级快充5G手机 1亿像素超清镜头高通骁龙778G",
           "box2": "163人正在拼单,可直接参与",
+          "yuanjia": "￥3999",
           "shaitu": [
             {
               "id": "1",
@@ -140,7 +153,9 @@
               "src":"https://img-1.pddpic.com/mms-material-img/2021-08-11/3c4cb211-ac98-466e-9f2e-41f7b8aa67bd.jpeg.a.jpeg?imageView2/2/w/1300/q/80"
             }
           ]
+
         }
+
       ]
 
 

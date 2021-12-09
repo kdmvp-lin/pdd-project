@@ -10,11 +10,11 @@
       <span class="mui-icon mui-icon-email"></span>
       <span class="mui-tab-label">分类</span>
     </router-link>
-    <router-link tag="a" to="/Category" class="mui-tab-item" href="#tabbar-with-contact">
+    <router-link tag="a" to="/ShopCart" class="mui-tab-item" href="#tabbar-with-contact">
       <span class="mui-icon mui-icon-contact"><span class="mui-badge">9</span></span>
       <span class="mui-tab-label">购物车</span>
     </router-link>
-    <router-link tag="a" to="/Category" class="mui-tab-item" href="#tabbar-with-map">
+    <router-link tag="a" to="/" class="mui-tab-item" href="#tabbar-with-map">
       <span class="mui-icon mui-icon-gear"></span>
       <span class="mui-tab-label">个人中心</span>
     </router-link>
