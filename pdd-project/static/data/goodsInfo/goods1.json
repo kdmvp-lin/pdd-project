@@ -49,8 +49,8 @@
         {
           "id": "1",
           "name": "华为荣耀50Pro",
-          "price": "3799",
-          "pic": "https://img-1.pddpic.com/mms-material-img/2021-08-11/e1e110da-5f8e-4692-b634-39d6a558b801.jpeg.a.jpeg?imageView2/2/w/1300/q/80",
+          "price": 3799,
+          "img": "https://img-1.pddpic.com/mms-material-img/2021-08-11/e1e110da-5f8e-4692-b634-39d6a558b801.jpeg.a.jpeg?imageView2/2/w/1300/q/80",
           "top_pr": "￥3799",
           "top_yuan": "￥3999",
           "top_pin": "已拼7612件",

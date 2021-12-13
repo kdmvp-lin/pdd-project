@@ -1,7 +1,7 @@
 <template>
   <div>
     <goods-swiper :swiperList="swiperList"></goods-swiper>
-    <goods-footer v-if="goodsInfo.length" :pric="goodsInfo"></goods-footer>
+    <goods-footer  :goodsInfo="goodsInfo" v-if="goodsInfo.length"></goods-footer>
     <goods-middle :goodsInfo="goodsInfo" :pinglun_pp="pinglun_pp"></goods-middle>
   </div>
 </template>
@@ -28,7 +28,6 @@
           goodsInfo:[],
           iconfontList:[],
           swiperList:[],
-          pric:[]
         }
       },
       methods:{

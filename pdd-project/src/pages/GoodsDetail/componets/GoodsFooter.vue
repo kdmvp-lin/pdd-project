@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="footer-box" v-for="item in goodsInfo" :key="item.id">
+    <div class="footer-box">
       <div class="more">
         <div class="iconfont icon">&#xe7e3;</div>
 
@@ -16,7 +16,7 @@
       </div>
 
       <div class="price1" @click="addCart">
-        <div>{{this.goodsInfo[0].price}}</div>
+        <div>{{this.goodsInfo[0].top_pr}}</div>
         <div>发起拼单</div>
       </div>
       <div class="price2" @click="addCart">
@@ -41,7 +41,7 @@
               id:this.goodsInfo[0].id,
               name:this.goodsInfo[0].name,
               price:this.goodsInfo[0].price,
-              img:this.goodsInfo[0].pic,
+              img:this.goodsInfo[0].img,
               count:1,
               selected:true
             })

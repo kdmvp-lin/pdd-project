@@ -47,8 +47,12 @@
     "goodsInfo": [
       {
         "id": "001",
+        "name": "苹果 iPhone 13 Pro",
+        "price": 8800,
+        "img": "https://img.pddpic.com/mms-material-img/2021-09-16/1eb0172f-ae59-43f6-92f4-db5a3a86eba6.jpeg?imageView2/2/w/1300/q/80/format/webp",
         "top_pr": "￥8800",
         "top_yuan": "￥9000",
+        "yuanjia": "￥9000",
         "top_pin": "已拼1万+件",
         "top_desc": "苹果 iPhone 13 Pro 全网通5G 双卡双待 新品苹果手机【4天内发货】",
         "box2": "163人正在拼单,可直接参与",
